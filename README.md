@@ -49,15 +49,15 @@ Structure must to be something like this:
 </table>
 </p>
  
- - [ ] Numbers from 0 to 9
- - [ ] One button to each operation
-    - [ ] +
-    - [ ] -
-    - [ ] *
-    - [ ] /
-    - [ ] %
-    - [ ] AC
-    - [ ] x
-    - [ ] =
-    - [ ] .
+ - [x] Numbers from 0 to 9
+ - [x] One button to each operation
+    - [x] +
+    - [x] -
+    - [x] *
+    - [x] /
+    - [x] %
+    - [x] AC
+    - [x] x
+    - [x] =
+    - [x] .
 
