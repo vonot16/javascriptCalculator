@@ -1,6 +1,6 @@
 <h1>JavaScript Calculator</h1>
 
-<h2>Funcionalitiies</h2>
+<h2>Funcionalities</h2>
 
  - [ ] Sum Operation ( + )
  - [ ] Sub Operation ( - )
