@@ -10,9 +10,15 @@ window.onload = () =>{
     }
 
     function floatNumber(){
-        /*
-        
-        */
+        if(input.value==="")
+            return;
+        if(!input.value.includes("."))
+            printOnScren(".")
+    }
+
+    function calculate(){
+        let calc = eval(input.value)
+        input.value = calc
     }
 
     function deleteOne(){
@@ -35,28 +41,8 @@ window.onload = () =>{
             case "AC":
                     clear();
                     break;
-            case "*":
-                clear();
-                printOnScren(buttonValue);
-                break;
-            case "/":
-                    clear();
-                    printOnScren(buttonValue);
-                    break;
-            case "-": 
-                    clear();
-                    printOnScren(buttonValue);
-                    break;
-            case "+": 
-                    clear();
-                    printOnScren(buttonValue);
-                    break;
-            case "%": 
-                    clear();
-                    printOnScren(buttonValue);
-                    break;
             case "=": 
-                    clear();
+                    calculate();
                     break;
             case ".":
                     floatNumber();
