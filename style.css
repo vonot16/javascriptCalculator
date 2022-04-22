@@ -9,24 +9,35 @@ body{
     display: flex;
     align-items: center;
     justify-content:center;
+    background: rgb(29,138,153);
+    background: linear-gradient(45deg, rgba(29,138,153,1) 43%, rgba(0,212,255,1) 100%);
 }
 
 .container{
-    width: 500px;
+    width: 400px;
     height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 3px;
+    color: #fff;
+    justify-content: center;
 }
 
 button{
     font-size: 30px;
+    background-color: hsla(204, 57%, 72%, 1);
+    border: none;
+    opacity: 0.8;
+    margin: 5px 5px 0 0;
+    border-radius: 5px;
+    color: #fff;
 }
 
 button:last-child{
     grid-row-start: 5;
     grid-column-start: 4;
     grid-row-end: 7;
+    background-color: #7C77B9;
 }
 
 input{
@@ -34,4 +45,10 @@ input{
     grid-column-end:5;
     padding: 10px;
     font-size: 30px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: #dbdbd9;
+    opacity: 0.7CS;
+    color: #000;
+
 }

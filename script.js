@@ -17,6 +17,8 @@ window.onload = () =>{
     }
 
     function calculate(){
+        if (input.value==="")
+            return
         let calc = eval(input.value)
         input.value = calc
     }
